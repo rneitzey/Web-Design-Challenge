@@ -1,0 +1,44 @@
+h1 {
+    font-size: 20xp;
+}
+
+body{
+    background: #dbdbdb;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.home-button {
+    background-color: #20B2AA;
+    margin-left: 60px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.box {
+    height: 400px;
+    padding: 20px;
+    background: #fff;
+  }
+
+#summary-image {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.title {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color:#20B2AA;
+}
+
+.paragraph_text {
+    color: #cdcdcd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
