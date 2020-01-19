@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Maximum Temperature</title>
+    <title>Cloudiness</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -25,7 +25,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand home-button text-white" href="index.html">Lattitude</a>
+        <a class="navbar-brand home-button text-white title" href="index.html">Lattitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -54,3 +54,55 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box">
+                    <h1 class="title">Max Temperature</h1>
+                    <hr>
+                    <img id="current-image" src="assets/images/Fig1.png" alt="MaxTemp">
+
+                    <p class="paragraph_text">As expected, the weather becomes significantly warmer as one approaches the equator (0 degree latitude). 
+                        The warmest group of tightly clustered maximum temperatures are nearest to the 0 latitude. 
+                        There are some outliers that are even warmer between 0 and -20 latitude and some outliers that are cooler between 0 and 20 latitude. 
+                        But, it is consistently warmer near the 0 latitude than anywhere else. Interestingly, the southern hemisphere tends to be warmer than the northern hemisphere.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h3 class="title">Visualizations</h3>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="MaxTemperature.html">
+                                    <img class="panel current-border" src="assets/images/Fig1.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="Humidity.html">
+                                    <img class="panel" src="assets/images/Fig2.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="Cloudiness.html">
+                                    <img class="panel" src="assets/images/Fig3.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="WindSpeed.html">
+                                    <img class="panel" src="assets/images/Fig4.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>

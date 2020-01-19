@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Humidity</title>
+    <title>Cloudiness</title>
 
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -25,13 +25,14 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand home-button text-white" href="index.html">Lattitude</a>
+        <a class="navbar-brand home-button text-white title" href="index.html">Lattitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,3 +54,55 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box">
+                    <h1 class="title">Humidity</h1>
+                    <hr>
+                    <img id="current-image" src="assets/images/Fig2.png" alt="Humidity">
+
+                    <p class="paragraph_text">Most of the cities near the 0 latitude have high humidity. Humidity percentage starts to spread out the 
+                        further you move away from 0 latitude, especially to the south. The northern regions have more of a spread, but still have more 
+                        cities with humidity higher than 60%. It is surprising how much humidity there is in the northern hemisphere except for the few cities 
+                        that have no humidity on average.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="box">
+                    <h3 class="title">Visualizations</h3>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="MaxTemperature.html">
+                                    <img class="panel" src="assets/images/Fig1.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="Humidity.html">
+                                    <img class="panel current-border" src="assets/images/Fig2.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="Cloudiness.html">
+                                    <img class="panel" src="assets/images/Fig3.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="WindSpeed.html">
+                                    <img class="panel" src="assets/images/Fig4.png" width=100% class=img-fluid>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
